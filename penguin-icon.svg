@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="bodyGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#374151" /> <!-- 亮部 -->
+      <stop offset="100%" stop-color="#111827" /> <!-- 暗部 -->
+    </radialGradient>
+  </defs>
+
+  <!-- 背景 (iOS 风格圆角矩形) -->
+  <rect x="2" y="2" width="96" height="96" rx="22" ry="22" fill="url(#bodyGrad)" stroke="#000" stroke-width="1" />
+  
+  <!-- 眼睛 (垂直椭圆，浅灰色) -->
+  <ellipse cx="38" cy="45" rx="3" ry="6" fill="#D1D5DB" />
+  <ellipse cx="62" cy="45" rx="3" ry="6" fill="#D1D5DB" />
+  
+  <!-- 嘴巴 (扁椭圆，黄色) -->
+  <ellipse cx="50" cy="58" rx="10" ry="4" fill="#F59E0B" />
+  
+  <!-- 高光 (增加立体感) -->
+  <ellipse cx="30" cy="25" rx="10" ry="6" fill="white" opacity="0.1" transform="rotate(-45, 30, 25)" />
+</svg>

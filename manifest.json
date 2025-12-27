@@ -1,0 +1,36 @@
+{
+  "name": "Pingu Math Adventure",
+  "short_name": "Pingu Math",
+  "description": "企鹅数学冒险 - 有趣的数学学习应用",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#4A90E2",
+  "theme_color": "#4A90E2",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/penguin-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/penguin-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/penguin-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/penguin-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
